@@ -19,7 +19,14 @@ export default function Home() {
 
   return (
     <main className="relative w-full h-screen">
-      <UnicornScene projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, delay: 0.5 }}
+        className="relative w-full h-screen"
+      >
+        <UnicornScene projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
+      </motion.div>
     </main>
   );
 }
