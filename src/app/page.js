@@ -11,7 +11,7 @@ export default function Home() {
       for (const anchor of anchors) {
         console.log(anchor.href);
         if (anchor.href === "https://unicorn.studio/?utm_source=public-url") {
-          anchor.style = "opacity: 0;";
+          anchor.style = "display: none;";
         }
       }
     }, 100);
