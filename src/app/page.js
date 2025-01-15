@@ -26,6 +26,14 @@ export default function Home() {
         className="relative w-full h-screen"
       >
         <UnicornScene projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <Link
+            href="/about"
+            className="bg-slate-600 text-white px-4 py-2 rounded"
+          >
+            Dashboard
+          </Link>
+        </div>
       </motion.div>
     </main>
   );
