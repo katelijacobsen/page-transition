@@ -1,6 +1,10 @@
+import { HeaderAnimation } from "../components/HeaderAnimation";
 
-export default function About() {
+
+export default function About(){
   return (
-    <div>page</div>
+    <main>
+      <HeaderAnimation/>
+    </main>
   )
 }
