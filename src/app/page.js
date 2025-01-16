@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import Link from "next/link";
-import GradientBg from "./components/GradientBackground.tsx";
+import {UnicornScene} from "./components/GradientBackground.tsx";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
         transition={{ duration: 2, delay: 1 }}
         className="relative w-full h-screen"
       >
-        <GradientBg projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
+        <UnicornScene projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
         <div className="absolute inset-0 flex justify-center items-center">
           <Link
             href="/about"

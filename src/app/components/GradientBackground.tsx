@@ -18,7 +18,7 @@ export type UnicornSceneProps = {
   lazyLoad?: boolean;
 };
 
-export default function UnicornScene({
+export const UnicornScene =({
   projectId,
   width = "100%",
   height = "100%",
@@ -29,7 +29,7 @@ export default function UnicornScene({
   ariaLabel = altText,
   className = "",
   lazyLoad = false,
-}: UnicornSceneProps) {
+}: UnicornSceneProps) => {
   const elementRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<any>(null);
   const [error, setError] = useState<string | null>(null);
