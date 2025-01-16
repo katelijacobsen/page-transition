@@ -4,6 +4,7 @@ import Link from "next/link";
 import {UnicornScene} from "./components/GradientBackground.tsx";
 import { useEffect } from "react";
 import IndexAnimation from "./components/IndexAnimation.tsx";
+import OuterCircleBox from "./components/OuterCircleBox.tsx";
 
 export default function Home() {
   useEffect(() => {
@@ -20,8 +21,8 @@ export default function Home() {
 
   return (
     <main className="relative w-full h-screen">
-
       <IndexAnimation/>
+      <OuterCircleBox/>
       {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -25,7 +25,7 @@ export default function Layout({ children }) {
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
           style={{
-            background: "radial-gradient(circle, white, lightgray)",
+            background: "radial-gradient(circle, white, #FEFEFE)",
           }}
         >
           <Header />
