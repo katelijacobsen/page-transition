@@ -20,10 +20,10 @@ const IndexAnimation = ({
   }, []);
 
   return (
-    <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold tracking-tighter flex flex-col items-center gap-1.5 w-fit mx-auto space-y-8">
+    <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-start font-bold tracking-tighter flex flex-col items-center gap-1.5 w-fit mx-auto">
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl py-6 bg-gradient-to-r from-black via-slate-800 to-black bg-clip-text text-transparent">Hej! I'm Katja</h1>
-      <div className="text-center font-normal tracking-tighter grid grid-cols-[auto_12rem]">
-        <div className="bg-gradient-to-r from-black via-slate-600 to-black bg-clip-text text-transparent flex-basis-1/2">
+      <div className=" text-center font-normal tracking-tighter grid grid-cols-[auto_6rem] sm:grid-cols-[auto_16rem] gap-2">
+        <div className="bg-gradient-to-r from-black via-slate-600 to-black bg-clip-text text-transparent flex-basis-1/2 ">
           {text}
           {""}
         </div>

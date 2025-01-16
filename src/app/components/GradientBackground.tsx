@@ -131,3 +131,5 @@ export const UnicornScene =({
   );
 }
 
+export default UnicornScene;
+

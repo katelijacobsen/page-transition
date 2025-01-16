@@ -83,3 +83,12 @@
   border-top-left-radius: 1.25em;
   box-shadow: -0.3em -0.3em 0 0.3em #ffffff;
 }
+
+.circle{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+	width: 5em;
+	aspect-ratio: 1;
+  z-index: 10;
+}
