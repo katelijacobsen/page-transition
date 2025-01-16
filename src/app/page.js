@@ -14,7 +14,7 @@ export default function Home() {
           anchor.style = "display: none;";
         }
       }
-    }, 100);
+    }, 1000);
   }, []);
 
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.5 }}
+        transition={{ duration: 2, delay: 1 }}
         className="relative w-full h-screen"
       >
         <GradientBg projectId={"data/4flspySlCrfvkfRH7Co8.json"} />
