@@ -25,13 +25,19 @@ export default function OuterCircleBox() {
           className="card"
           variants={{
             hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeInOut", damping: 20 } },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 1.5, ease: "easeInOut", damping: 20 },
+            },
           }}
         >
           <p>Lorem Ipsum</p>
           <div className="holder one relative">
             <div className="circle">
-                <GradientBackground projectId={"data/VRp3AcZCSgUbvl919bVE.json"} />
+              <GradientBackground
+                projectId={"data/VRp3AcZCSgUbvl919bVE.json"}
+              />
             </div>
           </div>
         </motion.div>
@@ -39,7 +45,11 @@ export default function OuterCircleBox() {
           className="card"
           variants={{
             hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeInOut", damping: 20 } },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 1.5, ease: "easeInOut", damping: 20 },
+            },
           }}
         >
           <p>Lorem Ipsum</p>
@@ -49,7 +59,11 @@ export default function OuterCircleBox() {
           className="card row-start-2"
           variants={{
             hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeInOut", damping: 20 } },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 1.5, ease: "easeInOut", damping: 20 },
+            },
           }}
         >
           <p>Lorem Ipsum</p>
@@ -59,7 +73,11 @@ export default function OuterCircleBox() {
           className="card row-start-2"
           variants={{
             hidden: { opacity: 0, y: 20 },
-            visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeInOut", damping: 20 } },
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 1.5, ease: "easeInOut", damping: 20 },
+            },
           }}
         >
           <p>Lorem Ipsum</p>
@@ -68,5 +86,4 @@ export default function OuterCircleBox() {
       </motion.section>
     </div>
   );
-};
-
+}
