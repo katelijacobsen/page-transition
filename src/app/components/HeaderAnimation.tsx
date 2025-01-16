@@ -1,5 +1,6 @@
 "use client";
 import { Poppins } from "@next/font/google";
+import { delay } from "motion";
 import { AnimatePresence, useInView, motion, m } from "motion/react";
 import * as React from "react";
 

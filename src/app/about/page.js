@@ -1,8 +1,6 @@
 'use client'
-import Link from "next/link";
 import { UnicornScene } from "../components/GradientBackground";
 import { HeaderAnimation } from "../components/HeaderAnimation";
-import { PrimaryBtn } from "../components/PrimaryBtn";
 import { motion } from "motion/react";
 
 
