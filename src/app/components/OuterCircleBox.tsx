@@ -4,7 +4,7 @@ import GradientBackground from "./GradientBackground";
 
 export default function OuterCircleBox() {
   return (
-    <div className="grid self-center m-12">
+    <div className="grid self-center m-36">
       <motion.section
         className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 place-content-center w-full"
         initial="hidden"
