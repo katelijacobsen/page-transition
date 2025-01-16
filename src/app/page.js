@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import {UnicornScene} from "./components/GradientBackground.tsx";
 import { useEffect } from "react";
+import IndexAnimation from "./components/IndexAnimation.tsx";
 
 export default function Home() {
   useEffect(() => {
@@ -19,7 +20,9 @@ export default function Home() {
 
   return (
     <main className="relative w-full h-screen">
-      <motion.div
+
+      <IndexAnimation/>
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2, delay: 1 }}
@@ -34,7 +37,7 @@ export default function Home() {
             Dashboard
           </Link>
         </div>
-      </motion.div>
+      </motion.div> */}
     </main>
   );
 }

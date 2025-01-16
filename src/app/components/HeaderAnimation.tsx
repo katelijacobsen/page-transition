@@ -1,7 +1,6 @@
 "use client";
 import { Poppins } from "@next/font/google";
-import { delay } from "motion";
-import { AnimatePresence, useInView, motion, m } from "motion/react";
+import { AnimatePresence, useInView, motion } from "motion/react";
 import * as React from "react";
 
 const poppinsBold = Poppins({
@@ -23,7 +22,7 @@ export function HeaderAnimation({ text = "About Me" }: { text: string }) {
             initial={{ opacity: 0, x: -20 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             exit="hidden"
-            transition={{ duration: 0.5, delay: i * 0.2 }}
+            transition={{ duration: 0.5, delay: i * 0.1 }}
             className={`${poppinsBold.className} text-8xl tracking-tight `}
           >
             {char === " " ? <span>&nbsp;</span> : char}

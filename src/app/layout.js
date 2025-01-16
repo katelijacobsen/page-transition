@@ -22,14 +22,16 @@ export default function Layout({ children }) {
   return (
     <html lang="en">
       <AnimatePresence mode="wait">
-
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          style={{
+            background: "radial-gradient(circle, white, lightgray)",
+          }}
         >
-          <Header/>
-        {children}
-      </body>
-        </AnimatePresence>
+          <Header />
+          {children}
+        </body>
+      </AnimatePresence>
     </html>
   );
 }
