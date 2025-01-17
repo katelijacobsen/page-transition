@@ -65,7 +65,7 @@ const Header: React.FC = () => {
             Home
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="text-gray-900 dark:text-white hover:text-gray-500"
           >
             About

@@ -5,6 +5,7 @@ import {UnicornScene} from "./components/GradientBackground.tsx";
 import { useEffect } from "react";
 import IndexAnimation from "./components/IndexAnimation.tsx";
 import OuterCircleBox from "./components/OuterCircleBox.tsx";
+import ParallaxSection from "./components/ParallaxSection.tsx";
 
 export default function Home() {
   useEffect(() => {
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <main>
       <IndexAnimation/>
+      <ParallaxSection/>
       <OuterCircleBox/>
       {/* <motion.div
         initial={{ opacity: 0 }}
